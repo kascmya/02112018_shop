@@ -83,6 +83,7 @@ while($parent = mysqli_fetch_assoc($cats)) {
                     <option name="20000">6000 - 20000 руб.</option>
                 </select>
             </div>
+            <div>ня</div>
             <div class="card">     
             </div>
             <div class="fullInfo">
