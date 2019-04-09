@@ -1,0 +1,64 @@
+.main__card {
+    text-align: center;
+    margin: 40px;
+}
+.main__cardhl {
+    margin: 40px;
+    font-weight: lighter
+}
+.main__cardtext {
+    font-style: italic;
+
+}
+.card {
+    margin: 40px;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.card a {
+    text-decoration: none;
+}
+.fullInfo {
+    display: none;
+}
+.card__pic {
+    background: center center / cover no-repeat;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 20px
+}
+.card__name {
+    text-decoration: none;
+    color: rgb(110, 108, 108);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.card__cost {
+    text-decoration: none;
+    color: rgb(109, 107, 107);
+    font-family: Arial, Helvetica, sans-serif;  
+}
+.numbpages {
+    display: flex;
+    justify-content: center;
+    margin: 40px
+}
+.numb {
+    padding: 15px;
+    color: white;
+    background: black;
+    margin: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.numbwhite {
+    background: white;
+    color: black;
+    border: 2px solid black;
+}

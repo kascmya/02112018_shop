@@ -1,0 +1,9 @@
+.bascket {
+    display: flex;
+    align-items: center
+}
+.bascket__pic {
+    background: url(/images/icons/bascet.png) center center / cover no-repeat;
+    width: 40px;
+    height: 30px
+}

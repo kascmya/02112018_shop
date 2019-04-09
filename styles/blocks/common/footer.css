@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between
+}
+.collection {   
+    flex: 1;
+    margin: 0 24px 
+}
+.shop {
+    flex: 1;    
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;  
+    text-align: center
+
+}
+.contacts {    
+    flex: 1; 
+    margin: 0 24px;
+    text-align: right
+}
+.footer__link {
+    text-decoration: none;
+    color: black;
+    line-height: 30px
+}
+
